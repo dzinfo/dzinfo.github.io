@@ -425,8 +425,8 @@ et à ses partenaires de développer les différents outils informatiques qui r�
 <div class="col-md-12">
 <p class="work-menu"><span><a href="#" class="active" onclick="change('appMobile',this);return false;">Applications mobile</a></span> 
 <span><a href="#" onclick="change('appWeb',this);return false;">Applications web</a></span> 
-<span><a href="#" onclick="change('appDesktop',this);return false;">Applications desktop</a></span> 
 <span><a href="#" onclick="change('appSite',this);return false;">Sites web</a></span>
+<span><a href="#" onclick="change('appDesktop',this);return false;">Applications desktop</a></span>
 </p>
 </div>
 </div>
@@ -596,6 +596,35 @@ Déposé vos documents puis commencer à travailler.</span>
 </div>
 </div>
 </div>
+<div class="row" id="appSite" style="display: none">
+<div class="col-md-12 animate-box" data-animate-effect="fadeInRight">
+<div class="project" style="background-image: url(images/19.JPG);">
+<div class="desc">
+<div class="con">
+<h3><a href="#" target="_blank">Electricien dz service</a></h3>
+<span>Électricien DZ service et spécialisé dans l’étude ,réalisation et maintenance dans le domaine d’électricité industriel et bâtiment.
+Notre objectif de et de satisfaire les clients à travers la qualité de service, et de les rassure par le dévouement à nos métier.</span>
+<p class="icon">
+<span><a href="#" target="_blank"><i class="icon-share3"></i></a></span>
+</p>
+</div>
+</div>
+</div>
+</div>.
+<div class="col-md-12 animate-box" data-animate-effect="fadeInRight">
+<div class="project" style="background-image: url(images/20.JPG);">
+<div class="desc">
+<div class="con">
+<h3><a href="#" target="_blank">ALL 4 FOOT</a></h3>
+<span></span>
+<p class="icon">
+<span><a href="#" target="_blank"><i class="icon-share3"></i></a></span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 </section>
 
@@ -735,26 +764,29 @@ switch(id){
 case "appMobile":
 appMobile.style.display = "block"
 appWeb.style.display = "none"
+appSite.style.display = "none"
 /*appDesktop.style.display = "none"
 appSite.style.display = "none"*/
 break;
 case "appWeb":
 appMobile.style.display = "none"
 appWeb.style.display = "block"
+appSite.style.display = "none"
 /*appDesktop.style.display = "none"
 appSite.style.display = "none"*/
 break;
 case "appDesktop":
 appMobile.style.display = "none"
 appWeb.style.display = "none"
+appSite.style.display = "none"
 /*appDesktop.style.display = "block"
-appSite.style.display = "none"*/
+*/
 break;
 case "appSite":
 appMobile.style.display = "none"
 appWeb.style.display = "none"
-/*appDesktop.style.display = "none"
-appSite.style.display = "block"*/
+/*appDesktop.style.display = "none"*/
+appSite.style.display = "block"
 break;
 }
 }
